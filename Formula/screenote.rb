@@ -1,28 +1,28 @@
 class Screenote < Formula
   desc "Command-line client for Screenote visual feedback workflows"
   homepage "https://screenote.ai"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.0/screenote_0.4.0_darwin_arm64.tar.gz"
-      sha256 "a484d806fc881139736264fb3341d30701d35fe333d09a2786b32d0db6f5d3b7"
+      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.1/screenote_0.4.1_darwin_arm64.tar.gz"
+      sha256 "d2f1317373632dd0b472c9b6722356f555e8db55b3df4ccf5dcd00d52ba3c431"
     end
     on_intel do
-      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.0/screenote_0.4.0_darwin_amd64.tar.gz"
-      sha256 "2da2eb7b7b7281553a82bd74daa29b3f9eb379a6b039b1ccbc23bf6bb8ce96f1"
+      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.1/screenote_0.4.1_darwin_amd64.tar.gz"
+      sha256 "cc5c7bec042c2c50305fcdaf9f57743750f8627cc6d9d3db38a86edb7884a7b1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.0/screenote_0.4.0_linux_arm64.tar.gz"
-      sha256 "96a9fb22b10c84c377b3fcf6d462f6ed6658e8f5a2536b75c684e237887c1b37"
+      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.1/screenote_0.4.1_linux_arm64.tar.gz"
+      sha256 "82c98831a4fae86c760af1d687b183206f38de8d5c6c3fc49d4f2be704f7af53"
     end
     on_intel do
-      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.0/screenote_0.4.0_linux_amd64.tar.gz"
-      sha256 "7bf22abc4c0a63024bbbe38c0bd1420484cad9fd6f74efc0fb70e061e220ff3f"
+      url "https://github.com/ivankuznetsov/screenote-cli/releases/download/v0.4.1/screenote_0.4.1_linux_amd64.tar.gz"
+      sha256 "0bf0e2754acc4b635342666730769dc11d3b407603bddef5cf596725886c42a8"
     end
   end
 
